@@ -27,6 +27,23 @@ megaMovie = {
 
 }
 
+위처럼 하든지 혹은
+
+megaCGV = {
+    'movie': {
+        'names': ['액션 영화', '로맨스 코미디', '공포 영화'],
+        'price': [10000, 8000, 9000],
+    },
+    'popcorn': {
+        'names': ["카라멜", "어니언", "치즈"],
+        'price': [7000, 8000, 8000],
+    }
+}
+
+
+
+
+
 print(f"{megaMovie['movie']}")
 movieNumber = int(input("영화를 고르세요(0~2번) :"))
 print(f"{megaMovie['popcorn']}")
